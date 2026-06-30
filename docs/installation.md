@@ -68,6 +68,7 @@ curl -sO https://packages.wazuh.com/4.5/wazuh-install.sh && sudo bash ./wazuh-in
 > Example:
 >
 > ```
+> Run on Kali Purple (Recommended)
 > URL: https://<SERVER_IP>
 > Username: admin
 > Password: ********
