@@ -51,7 +51,7 @@ The primary objectives of this lab were to:
 | Technology | Purpose |
 |------------|---------|
 | Wazuh | Security Information and Event Management (SIEM) |
-| Ubuntu Server | Wazuh Server |
+| Kali Purple | Wazuh Server |
 | VirtualBox | Virtualization Platform |
 | Windows 11 | Monitored Endpoint |
 | Sysmon | Endpoint Telemetry |
@@ -62,9 +62,9 @@ The primary objectives of this lab were to:
 
 # 🏗️ Lab Architecture
 
-The Wazuh SIEM lab was deployed inside my personal virtualization environment to simulate a small enterprise network. The environment includes Windows and Linux systems connected through VirtualBox networking, allowing me to collect logs, monitor endpoint activity, and investigate security events.
+The Wazuh SIEM lab was deployed inside my personal VirtualBox environment using **Kali Purple** as the Wazuh server. Multiple Windows endpoints were connected to the server through the Wazuh agent, allowing centralized log collection, endpoint monitoring, and security event analysis.
 
-The lab was built as part of my cybersecurity learning journey and is designed to provide hands-on experience with SIEM deployment, endpoint monitoring, and basic SOC operations.
+The environment was built as part of my cybersecurity learning journey to better understand how SIEM platforms are deployed and used in Security Operations Center (SOC) environments.
 
 > **Note:** A network topology diagram will be added in a future update.
 
@@ -75,12 +75,12 @@ The lab was built as part of my cybersecurity learning journey and is designed t
 
 The following virtual machines were used throughout this lab:
 
-| Machine | Role |
+|| Machine | Role |
 |----------|------|
-| Ubuntu Server | Wazuh Server |
-| Windows 11 | Monitored Endpoint |
-| Ubuntu Desktop *(optional)* | Linux Endpoint / Testing |
-| Kali Linux *(optional)* | Attack Simulation |
+| Kali Purple | Wazuh Server |
+| Windows Server 2025 | Monitored Endpoint |
+| Windows 11 Enterprise | Monitored Endpoint |
+| Windows 11 Enterprise | Additional Endpoint |
 
 
 ---
@@ -101,6 +101,28 @@ Through this project, I practiced and strengthened the following skills:
 
 
 ---
+
+                    VirtualBox Lab
+
+          +------------------------------+
+          |       Kali Purple VM         |
+          |------------------------------|
+          | - Wazuh Server               |
+          | - Wazuh Dashboard            |
+          | - Wazuh Indexer              |
+          +--------------+---------------+
+                         |
+                         | Wazuh Agent Communication
+                         |
+        -----------------------------------------
+        |                                       |
++----------------------+          +----------------------+
+| Windows 11 VM        |          | Windows Server 2025 |
+| Wazuh Agent          |          | Wazuh Agent         |
+| Endpoint Monitoring  |          | Domain Controller   |
++----------------------+          +----------------------+
+
+
 
 # 📂 Repository Structure
 
