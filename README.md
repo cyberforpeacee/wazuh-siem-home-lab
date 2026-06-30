@@ -100,11 +100,10 @@ Through this project, I practiced and strengthened the following skills:
 - Documentation and troubleshooting.
 
 
----
+--
+                 VirtualBox Lab
 
-                    VirtualBox Lab
-
-          +------------------------------+
+--          +------------------------------+
           |       Kali Purple VM         |
           |------------------------------|
           | - Wazuh Server               |
