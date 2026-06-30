@@ -62,9 +62,13 @@ The primary objectives of this lab were to:
 
 # 🏗️ Lab Architecture
 
-The Wazuh SIEM lab was deployed inside my personal VirtualBox environment using **Kali Purple** as the Wazuh server. Multiple Windows endpoints were connected to the server through the Wazuh agent, allowing centralized log collection, endpoint monitoring, and security event analysis.
+This lab was built in a VirtualBox environment using **Kali Purple** as the central security monitoring server.
 
-The environment was built as part of my cybersecurity learning journey to better understand how SIEM platforms are deployed and used in Security Operations Center (SOC) environments.
+The Wazuh platform was installed directly on the Kali Purple virtual machine. Windows endpoints were configured with the Wazuh agent and connected to the server using the Kali Purple VM's IP address.
+
+Once connected, the agents began sending endpoint data and security events to the Wazuh server, allowing centralized log collection, endpoint monitoring, and security event analysis through the Wazuh Dashboard.
+
+The lab was created to gain practical experience with SIEM deployment and understand how security monitoring is performed in a Security Operations Center (SOC).
 
 > **Note:** A network topology diagram will be added in a future update.
 
@@ -73,14 +77,12 @@ The environment was built as part of my cybersecurity learning journey to better
 
 # 💻 Virtual Machines
 
-The following virtual machines were used throughout this lab:
-
-|| Machine | Role |
-|----------|------|
-| Kali Purple | Wazuh Server |
-| Windows Server 2025 | Monitored Endpoint |
+| Virtual Machine | Purpose |
+|-----------------|---------|
+| Kali Purple | Wazuh Server, Wazuh Dashboard, and Wazuh Indexer |
+| Windows Server 2025 | Domain Controller and Wazuh Agent |
 | Windows 11 Enterprise | Monitored Endpoint |
-| Windows 11 Enterprise | Additional Endpoint |
+| Windows 11 Enterprise | Additional Monitored Endpoint |
 
 
 ---
