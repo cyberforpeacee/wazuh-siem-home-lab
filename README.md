@@ -44,3 +44,16 @@ The primary objectives of this lab were to:
 
 
 
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Wazuh | Security Information and Event Management (SIEM) |
+| Ubuntu Server | Wazuh Server |
+| VirtualBox | Virtualization Platform |
+| Windows 11 | Monitored Endpoint |
+| Sysmon | Endpoint Telemetry |
+| Linux | Server Administration |
+
