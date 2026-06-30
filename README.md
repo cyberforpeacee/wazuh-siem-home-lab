@@ -26,3 +26,21 @@ Note: This project is part of my personal cybersecurity learning journey. It is 
 | **Platform** | VirtualBox |
 | **Primary Operating System** | Ubuntu Server |
 | **Focus Areas** | SIEM, Log Management, Endpoint Monitoring, Threat Detection |
+
+
+---
+
+## 🎯 Objectives
+
+The primary objectives of this lab were to:
+
+- Build a functional Wazuh SIEM environment from scratch.
+- Gain hands-on experience with centralized log collection.
+- Monitor Windows and Linux endpoints.
+- Understand how security events are generated and analyzed.
+- Explore Wazuh dashboards, rules, and alerts.
+- Practice investigating security events in a controlled environment.
+- Improve my understanding of Security Operations Center (SOC) workflows.
+
+
+
