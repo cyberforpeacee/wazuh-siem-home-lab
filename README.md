@@ -9,3 +9,20 @@ Instead of only learning SIEM concepts through theory, I wanted to deploy Wazuh 
 The documentation in this repository covers the lab architecture, installation process, configuration steps, screenshots, troubleshooting notes, and the lessons I learned while building the environment.
 
 > **Note:** This project is part of my personal cybersecurity learning journey. It is continuously improved as I expand the lab and gain more hands-on experience.
+
+
+Note: This project is part of my personal cybersecurity learning journey. It is continuously improved as I expand the lab and gain more hands-on experience.
+
+
+---
+
+## 📋 Project Information
+
+| Category | Details |
+|----------|----------|
+| **Project Name** | Wazuh SIEM Home Lab |
+| **Project Type** | Cybersecurity Home Lab |
+| **Status** | ✅ Completed |
+| **Platform** | VirtualBox |
+| **Primary Operating System** | Ubuntu Server |
+| **Focus Areas** | SIEM, Log Management, Endpoint Monitoring, Threat Detection |
