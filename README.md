@@ -57,3 +57,14 @@ The primary objectives of this lab were to:
 | Sysmon | Endpoint Telemetry |
 | Linux | Server Administration |
 
+
+---
+
+# 🏗️ Lab Architecture
+
+The Wazuh SIEM lab was deployed inside my personal virtualization environment to simulate a small enterprise network. The environment includes Windows and Linux systems connected through VirtualBox networking, allowing me to collect logs, monitor endpoint activity, and investigate security events.
+
+The lab was built as part of my cybersecurity learning journey and is designed to provide hands-on experience with SIEM deployment, endpoint monitoring, and basic SOC operations.
+
+> **Note:** A network topology diagram will be added in a future update.
+
