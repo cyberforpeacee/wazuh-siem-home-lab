@@ -100,26 +100,26 @@ Through this project, I practiced and strengthened the following skills:
 - Documentation and troubleshooting.
 
 
-  -
+--  
                     VirtualBox Lab
 
---          +------------------------------+
---          |       Kali Purple VM         |
---          |------------------------------|
---          | - Wazuh Server               |
---          | - Wazuh Dashboard            |
---          | - Wazuh Indexer              |
---          +--------------+---------------+
+          +------------------------------+
+          |       Kali Purple VM         |
+          |------------------------------|
+          | - Wazuh Server               |
+          | - Wazuh Dashboard            |
+          | - Wazuh Indexer              |
+          +--------------+---------------+
                          |
                          | Wazuh Agent Communication
                          |
---        -----------------------------------------
---        |                                       |
---+----------------------+          +----------------------+
---| Windows 11 VM        |          | Windows Server 2025 |
---| Wazuh Agent          |          | Wazuh Agent         |
---| Endpoint Monitoring  |          | Domain Controller   |
---+----------------------+          +----------------------+
+        -----------------------------------------
+        |                                       |
++----------------------+          +----------------------+
+| Windows 11 VM        |          | Windows Server 2025 |
+| Wazuh Agent          |          | Wazuh Agent         |
+| Endpoint Monitoring  |          | Domain Controller   |
++----------------------+          +----------------------+
 
 
 # 📂 Repository Structure
