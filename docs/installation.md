@@ -35,17 +35,40 @@ The deployment followed these general steps:
 
 
 ---
+# Installation Guide
 
-## Installation Steps
+## Step 1 – Install curl
 
-Install curl with the command below:
+The Wazuh installation script is downloaded using `curl`. If `curl` is not installed, install it first.
+
 ```bash
 sudo apt-get install curl
 ```
 
-Use the curl command below to download and install Wazuh.
+---
+
+## Step 2 – Download and Install Wazuh
+
+Run the following command to download and install the Wazuh platform.
+
 ```bash
 curl -sO https://packages.wazuh.com/4.5/wazuh-install.sh && sudo bash ./wazuh-install.sh -a -i
 ```
 
- > **Note:**When the install is completed the username and the password for the web interface is provided. Ensure you copy and paste the password. You will need the creds to access the web interface. It also includes the URL to the web interface. Which is basically the server IP address and port 443.
+> **Note**
+>
+> When the installation finishes, Wazuh displays:
+>
+> - Dashboard URL
+> - Username
+> - Password
+>
+> Save these credentials immediately. They are required to access the Wazuh Dashboard later.
+>
+> Example:
+>
+> ```
+> URL: https://<SERVER_IP>
+> Username: admin
+> Password: ********
+> ```
