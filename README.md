@@ -98,3 +98,18 @@ Through this project, I practiced and strengthened the following skills:
 - Linux server administration.
 - Virtual machine management using VirtualBox.
 - Documentation and troubleshooting.
+
+
+---
+
+# 📂 Repository Structure
+
+```text
+wazuh-siem-home-lab/
+│
+├── README.md
+├── screenshots/
+├── diagrams/
+├── configs/
+└── docs/
+```
