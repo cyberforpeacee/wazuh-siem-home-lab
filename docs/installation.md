@@ -32,3 +32,12 @@ The deployment followed these general steps:
 6. Install the Wazuh agent on Windows endpoints.
 7. Register the agents with the Wazuh server.
 8. Verify successful communication between the server and agents.
+
+
+---
+
+## Installation Steps
+
+Install curl with the command below:
+sudo apt-get install curl
+
