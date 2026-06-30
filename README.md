@@ -68,3 +68,16 @@ The lab was built as part of my cybersecurity learning journey and is designed t
 
 > **Note:** A network topology diagram will be added in a future update.
 
+
+---
+
+# 💻 Virtual Machines
+
+The following virtual machines were used throughout this lab:
+
+| Machine | Role |
+|----------|------|
+| Ubuntu Server | Wazuh Server |
+| Windows 11 | Monitored Endpoint |
+| Ubuntu Desktop *(optional)* | Linux Endpoint / Testing |
+| Kali Linux *(optional)* | Attack Simulation |
