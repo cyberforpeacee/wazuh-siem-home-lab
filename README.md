@@ -24,7 +24,7 @@ Note: This project is part of my personal cybersecurity learning journey. It is 
 | **Project Type** | Cybersecurity Home Lab |
 | **Status** | ✅ Completed |
 | **Platform** | VirtualBox |
-| **Primary Operating System** | Ubuntu Server |
+| **Primary Operating System** | Kali Purple |
 | **Focus Areas** | SIEM, Log Management, Endpoint Monitoring, Threat Detection |
 
 
