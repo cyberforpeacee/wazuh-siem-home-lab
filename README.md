@@ -81,3 +81,20 @@ The following virtual machines were used throughout this lab:
 | Windows 11 | Monitored Endpoint |
 | Ubuntu Desktop *(optional)* | Linux Endpoint / Testing |
 | Kali Linux *(optional)* | Attack Simulation |
+
+
+---
+
+# 🎓 Skills Demonstrated
+
+Through this project, I practiced and strengthened the following skills:
+
+- Deploying and configuring Wazuh SIEM.
+- Installing and managing Wazuh agents.
+- Centralized log collection.
+- Endpoint monitoring.
+- Basic threat detection.
+- Security event investigation.
+- Linux server administration.
+- Virtual machine management using VirtualBox.
+- Documentation and troubleshooting.
