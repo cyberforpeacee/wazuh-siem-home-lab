@@ -37,7 +37,7 @@ The deployment followed these general steps:
 ---
 # Installation Guide
 
-## Step 1 – Install curl
+## Step 1 – Install curl (Run on Kali Purple (Recommended))
 
 The Wazuh installation script is downloaded using `curl`. If `curl` is not installed, install it first.
 
@@ -58,7 +58,7 @@ curl -sO https://packages.wazuh.com/4.5/wazuh-install.sh && sudo bash ./wazuh-in
 > **Note**
 >
 > When the installation finishes, Wazuh displays:
-> - Run on Kali Purple (Recommended)
+> 
 > - Dashboard URL
 > - Username
 > - Password
