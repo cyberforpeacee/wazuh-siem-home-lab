@@ -39,7 +39,12 @@ The deployment followed these general steps:
 ## Installation Steps
 
 Install curl with the command below:
-'''bash
+```bash
 sudo apt-get install curl
-'''
+```
+
+Use the curl command below to download and install Wazuh.
+```bash
+curl -sO https://packages.wazuh.com/4.5/wazuh-install.sh && sudo bash ./wazuh-install.sh -a -i
+```
 
