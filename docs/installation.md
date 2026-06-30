@@ -48,4 +48,4 @@ Use the curl command below to download and install Wazuh.
 curl -sO https://packages.wazuh.com/4.5/wazuh-install.sh && sudo bash ./wazuh-install.sh -a -i
 ```
 
-note:When the install is completed the username and the password for the web interface is provided. Ensure you copy and paste the password. You will need the creds to access the web interface. It also includes the URL to the web interface. Which is basically the server IP address and port 443.
+ **Note:**When the install is completed the username and the password for the web interface is provided. Ensure you copy and paste the password. You will need the creds to access the web interface. It also includes the URL to the web interface. Which is basically the server IP address and port 443.
