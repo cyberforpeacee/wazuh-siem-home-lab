@@ -39,5 +39,7 @@ The deployment followed these general steps:
 ## Installation Steps
 
 Install curl with the command below:
+---bash
 sudo apt-get install curl
+---
 
